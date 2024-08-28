@@ -1,0 +1,31 @@
+body{
+    /* background:url(imageMaths.avif) no-repeat; */
+    background-color: #ddd88e;
+    background-size: cover;
+    position: absolute;
+    left:40%;
+    top:10%;
+}
+
+.calculator {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons button {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    background: linear-gradient(to right, #c2bf94, #99b799);
+  }
+  
